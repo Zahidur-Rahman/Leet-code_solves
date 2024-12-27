@@ -37,7 +37,7 @@ class MedianFinder:
         if len(l)>len(s):
             return l[0]
         
-        return (s[0]+l[0])/2
+        return (-1 * s[0] + l[0]) / 2
         
 
 
